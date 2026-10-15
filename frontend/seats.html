@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Seats | MatAir</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-container">
+            <div class="logo-icon"></div>
+            <div class="logo-text">MAT<span>AIR</span></div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Flights</a></li>
+                <li><a href="dashboard.html">My Bookings</a></li>
+                <li id="auth-links">
+                    <a href="login.html" class="nav-btn nav-link-btn">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="results-header" style="max-width: 900px;">
+            <div>
+                <h1>Choose Your Preferred Seats</h1>
+                <p id="selection-details" style="color: var(--text-secondary);"></p>
+            </div>
+            <div style="text-align: right;">
+                <p style="font-size: 0.85rem; color: var(--text-secondary);">Total Passengers</p>
+                <p style="font-size: 1.5rem; font-weight: 700;" id="pax-count">0</p>
+            </div>
+        </div>
+
+        <div class="seat-container animate">
+            <div class="aircraft-head"></div>
+            
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <span style="font-weight: 600; color: var(--text-secondary);">Front of Aircraft</span>
+            </div>
+
+            <div id="seat-grid" class="seat-grid">
+                <!-- Populated by JS -->
+            </div>
+
+            <div class="seat-legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="border: 2px solid var(--light-gray);"></div>
+                    <span>Available</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: var(--primary-red);"></div>
+                    <span>Selected</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: var(--light-gray);"></div>
+                    <span>Booked</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="border: 2px solid var(--gold);"></div>
+                    <span>Business</span>
+                </div>
+            </div>
+
+            <div style="margin-top: 3rem; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <p style="color: var(--text-secondary);">Selected Seats: <span id="selected-seats-list" style="color: var(--text-primary); font-weight: 700;">None</span></p>
+                </div>
+                <button id="confirm-seats-btn" class="btn-primary" disabled>Confirm Selection</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/api.js"></script>
+    <script src="js/seats.js"></script>
+</body>
+</html>
+
+

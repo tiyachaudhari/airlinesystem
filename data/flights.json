@@ -1,0 +1,5849 @@
+[
+  {
+    "airline": "MatAir",
+    "destination": "Delhi",
+    "flight_id": "MA-100",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 10578,
+          "economy": 3526,
+          "first": 21156
+        },
+        "schedule_id": "MA-100-S1",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "5A",
+              "5D",
+              "9D",
+              "20A",
+              "22E",
+              "8E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 10743,
+          "economy": 3581,
+          "first": 21486
+        },
+        "schedule_id": "MA-100-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "4C",
+              "4A",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "10D",
+              "13E",
+              "3C",
+              "23E",
+              "19F",
+              "1C",
+              "25F",
+              "9A",
+              "16B",
+              "5E",
+              "10A",
+              "8E",
+              "19C",
+              "14B",
+              "4F",
+              "13C",
+              "7D",
+              "12C",
+              "12B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 14169,
+          "economy": 4723,
+          "first": 28338
+        },
+        "schedule_id": "MA-100-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "1A",
+              "5A",
+              "3C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "13F",
+              "12E",
+              "7D",
+              "16E",
+              "4E",
+              "5D",
+              "2C",
+              "20B",
+              "4B",
+              "25B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12210,
+          "economy": 4070,
+          "first": 24420
+        },
+        "schedule_id": "MA-100-S4",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9A",
+              "10A",
+              "15A",
+              "10B",
+              "19F",
+              "6F",
+              "9C",
+              "9C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Mumbai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Bengaluru",
+    "flight_id": "MA-101",
+    "schedules": [
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 13734,
+          "economy": 4578,
+          "first": 27468
+        },
+        "schedule_id": "MA-101-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "2D",
+              "2E"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "25A",
+              "13D",
+              "20C",
+              "14A",
+              "9E",
+              "14C",
+              "24C",
+              "16C",
+              "2D",
+              "4B",
+              "21E",
+              "14E",
+              "17C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 16371,
+          "economy": 5457,
+          "first": 32742
+        },
+        "schedule_id": "MA-101-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C",
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "12B",
+              "24A",
+              "18C",
+              "19D",
+              "16F",
+              "7E",
+              "4C",
+              "16C",
+              "12C",
+              "1A",
+              "2C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 13959,
+          "economy": 4653,
+          "first": 27918
+        },
+        "schedule_id": "MA-101-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A",
+              "4C",
+              "3C",
+              "3A",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "5A",
+              "5F",
+              "8A",
+              "4B",
+              "4C",
+              "18B",
+              "6F",
+              "7F",
+              "25E",
+              "20C",
+              "3A",
+              "25C",
+              "19C",
+              "25E",
+              "12B",
+              "2A",
+              "19F",
+              "4B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 16122,
+          "economy": 5374,
+          "first": 32244
+        },
+        "schedule_id": "MA-101-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "4C",
+              "2C",
+              "4C",
+              "3C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9C",
+              "4F",
+              "6D",
+              "11B",
+              "15D",
+              "1C",
+              "7B",
+              "23D",
+              "1F",
+              "19E",
+              "7E",
+              "14D",
+              "1B",
+              "7F",
+              "11F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Mumbai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Hyderabad",
+    "flight_id": "MA-102",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 14916,
+          "economy": 4972,
+          "first": 29832
+        },
+        "schedule_id": "MA-102-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "4C",
+              "1C",
+              "2A",
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "19C",
+              "16B",
+              "16D",
+              "5D",
+              "2E",
+              "2A",
+              "13F",
+              "14C",
+              "16F",
+              "12F",
+              "1A",
+              "19C",
+              "25B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13287,
+          "economy": 4429,
+          "first": 26574
+        },
+        "schedule_id": "MA-102-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "5C",
+              "2C",
+              "5C",
+              "3C",
+              "1A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9E",
+              "14C",
+              "19F",
+              "10A",
+              "4E",
+              "2D",
+              "15B",
+              "15F",
+              "14A",
+              "21E",
+              "25A",
+              "18E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 13614,
+          "economy": 4538,
+          "first": 27228
+        },
+        "schedule_id": "MA-102-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "21C",
+              "21E",
+              "8F",
+              "4E",
+              "1E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12285,
+          "economy": 4095,
+          "first": 24570
+        },
+        "schedule_id": "MA-102-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "16E",
+              "10C",
+              "22E",
+              "13C",
+              "22F",
+              "22D",
+              "9C",
+              "6D",
+              "22F",
+              "8E",
+              "1A",
+              "18E",
+              "4D",
+              "7A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Mumbai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Chennai",
+    "flight_id": "MA-103",
+    "schedules": [
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 13215,
+          "economy": 4405,
+          "first": 26430
+        },
+        "schedule_id": "MA-103-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "8B",
+              "23B",
+              "22D",
+              "23A",
+              "24C",
+              "15C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 16164,
+          "economy": 5388,
+          "first": 32328
+        },
+        "schedule_id": "MA-103-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "5A",
+              "16B",
+              "13B",
+              "24B",
+              "9A",
+              "14E",
+              "21F",
+              "14B",
+              "12E",
+              "5F",
+              "23D",
+              "20B",
+              "4D",
+              "9E",
+              "22F",
+              "2E",
+              "5A",
+              "20F",
+              "16B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 12567,
+          "economy": 4189,
+          "first": 25134
+        },
+        "schedule_id": "MA-103-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "5C",
+              "1C",
+              "1A",
+              "4C",
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "19A",
+              "20B",
+              "7F",
+              "12F",
+              "17E",
+              "10F",
+              "9C",
+              "8E",
+              "17F",
+              "19E",
+              "15A",
+              "19E",
+              "20A",
+              "2B",
+              "12E",
+              "18F",
+              "10B",
+              "24D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12921,
+          "economy": 4307,
+          "first": 25842
+        },
+        "schedule_id": "MA-103-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C",
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "22D",
+              "14F",
+              "17C",
+              "4C",
+              "24A",
+              "1E",
+              "18B",
+              "22D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Mumbai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Kolkata",
+    "flight_id": "MA-104",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 16137,
+          "economy": 5379,
+          "first": 32274
+        },
+        "schedule_id": "MA-104-S1",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "3F",
+              "24C",
+              "17E",
+              "10A",
+              "3E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13938,
+          "economy": 4646,
+          "first": 27876
+        },
+        "schedule_id": "MA-104-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C",
+              "5A",
+              "2A",
+              "2C",
+              "4A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "20A",
+              "25E",
+              "25D",
+              "25D",
+              "3F",
+              "5E",
+              "3A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 10830,
+          "economy": 3610,
+          "first": 21660
+        },
+        "schedule_id": "MA-104-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "5A",
+              "1C",
+              "2C",
+              "2C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9B",
+              "9E",
+              "19D",
+              "22D",
+              "1A",
+              "22D",
+              "4C",
+              "19D",
+              "9A",
+              "3E",
+              "3C",
+              "25A",
+              "5D",
+              "8E",
+              "12D",
+              "7E",
+              "2D",
+              "11D",
+              "6E",
+              "11C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 11475,
+          "economy": 3825,
+          "first": 22950
+        },
+        "schedule_id": "MA-104-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C",
+              "2C",
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "14E",
+              "8D",
+              "17B",
+              "16F",
+              "23A",
+              "20D",
+              "2B",
+              "15F",
+              "2D",
+              "7A",
+              "15B",
+              "5A",
+              "17D",
+              "18F",
+              "6C",
+              "19A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Mumbai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Mumbai",
+    "flight_id": "MA-105",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 11118,
+          "economy": 3706,
+          "first": 22236
+        },
+        "schedule_id": "MA-105-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "11C",
+              "11A",
+              "5B",
+              "16D",
+              "4D",
+              "10D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 11220,
+          "economy": 3740,
+          "first": 22440
+        },
+        "schedule_id": "MA-105-S2",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "15D",
+              "25F",
+              "14D",
+              "7F",
+              "17B",
+              "21F",
+              "4B",
+              "20E",
+              "19B",
+              "6D",
+              "4C",
+              "14E",
+              "10E",
+              "15E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A",
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 13077,
+          "economy": 4359,
+          "first": 26154
+        },
+        "schedule_id": "MA-105-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A",
+              "2C",
+              "3A",
+              "5C",
+              "2C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "16F",
+              "18D",
+              "19F",
+              "1F",
+              "17A",
+              "8D",
+              "7A",
+              "17C",
+              "14B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13368,
+          "economy": 4456,
+          "first": 26736
+        },
+        "schedule_id": "MA-105-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A",
+              "2C",
+              "3C",
+              "4A",
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "7B",
+              "1F",
+              "2B",
+              "12E",
+              "23C",
+              "16E",
+              "9A",
+              "16E",
+              "11B",
+              "22F",
+              "17D",
+              "20D",
+              "13A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Delhi"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Bengaluru",
+    "flight_id": "MA-106",
+    "schedules": [
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 15966,
+          "economy": 5322,
+          "first": 31932
+        },
+        "schedule_id": "MA-106-S1",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "17A",
+              "22F",
+              "19C",
+              "19A",
+              "16A",
+              "11A",
+              "4B",
+              "24F",
+              "1C",
+              "3A",
+              "7E",
+              "22C",
+              "13F",
+              "5E",
+              "6C",
+              "16D",
+              "25B",
+              "25F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14754,
+          "economy": 4918,
+          "first": 29508
+        },
+        "schedule_id": "MA-106-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "3D",
+              "7C",
+              "2D",
+              "17B",
+              "8D",
+              "20B",
+              "16A",
+              "4D",
+              "8C",
+              "17F",
+              "13E",
+              "9A",
+              "25F",
+              "24E",
+              "16E",
+              "18A",
+              "20A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 13623,
+          "economy": 4541,
+          "first": 27246
+        },
+        "schedule_id": "MA-106-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C",
+              "5C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "8E",
+              "11B",
+              "5D",
+              "16C",
+              "14B",
+              "19E",
+              "24E",
+              "25E",
+              "14D",
+              "3B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 11883,
+          "economy": 3961,
+          "first": 23766
+        },
+        "schedule_id": "MA-106-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "5C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "6B",
+              "23A",
+              "15C",
+              "6A",
+              "8F",
+              "21B",
+              "5B",
+              "25C",
+              "3B",
+              "19E",
+              "13A",
+              "19C",
+              "13A",
+              "9E",
+              "19C",
+              "16B",
+              "17A",
+              "14F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Delhi"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Hyderabad",
+    "flight_id": "MA-107",
+    "schedules": [
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 15417,
+          "economy": 5139,
+          "first": 30834
+        },
+        "schedule_id": "MA-107-S1",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "19B",
+              "5A",
+              "22C",
+              "6B",
+              "8F",
+              "11B",
+              "20C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13773,
+          "economy": 4591,
+          "first": 27546
+        },
+        "schedule_id": "MA-107-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "4C",
+              "4A",
+              "3C",
+              "5C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "17A",
+              "9C",
+              "19E",
+              "22A",
+              "6F",
+              "1B",
+              "3E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 14205,
+          "economy": 4735,
+          "first": 28410
+        },
+        "schedule_id": "MA-107-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "2A",
+              "4A",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "3B",
+              "23A",
+              "8C",
+              "17B",
+              "13A",
+              "24D",
+              "22D",
+              "10D",
+              "3D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 11172,
+          "economy": 3724,
+          "first": 22344
+        },
+        "schedule_id": "MA-107-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "2C",
+              "5C",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "21E",
+              "7D",
+              "13B",
+              "13E",
+              "18A",
+              "24B",
+              "11E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Delhi"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Chennai",
+    "flight_id": "MA-108",
+    "schedules": [
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 13146,
+          "economy": 4382,
+          "first": 26292
+        },
+        "schedule_id": "MA-108-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "3C",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "15E",
+              "16E",
+              "21B",
+              "1B",
+              "2E",
+              "24E",
+              "20C",
+              "24E",
+              "5B",
+              "3D",
+              "11F",
+              "16F",
+              "15F",
+              "23C",
+              "17B",
+              "4C",
+              "16F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12270,
+          "economy": 4090,
+          "first": 24540
+        },
+        "schedule_id": "MA-108-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "4C",
+              "5C",
+              "1C",
+              "3C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "5E",
+              "15E",
+              "3D",
+              "24F",
+              "13A",
+              "23B",
+              "18F",
+              "3D",
+              "16B",
+              "7F",
+              "17D",
+              "6D",
+              "1D",
+              "18C",
+              "16E",
+              "12A",
+              "3B",
+              "3E",
+              "1E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 15630,
+          "economy": 5210,
+          "first": 31260
+        },
+        "schedule_id": "MA-108-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A",
+              "4A",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "12D",
+              "11B",
+              "14B",
+              "13A",
+              "24C",
+              "1D",
+              "5F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 15999,
+          "economy": 5333,
+          "first": 31998
+        },
+        "schedule_id": "MA-108-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "3A",
+              "3A",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "2B",
+              "20C",
+              "7D",
+              "7B",
+              "1E",
+              "23B",
+              "17F",
+              "24F",
+              "23E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Delhi"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Kolkata",
+    "flight_id": "MA-109",
+    "schedules": [
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 11955,
+          "economy": 3985,
+          "first": 23910
+        },
+        "schedule_id": "MA-109-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "4C",
+              "2C",
+              "1C",
+              "4C",
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "12F",
+              "18E",
+              "23C",
+              "8A",
+              "10F",
+              "24B",
+              "13E",
+              "16E",
+              "4B",
+              "6A",
+              "22C",
+              "5E",
+              "3A",
+              "11E",
+              "9B",
+              "13C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 15144,
+          "economy": 5048,
+          "first": 30288
+        },
+        "schedule_id": "MA-109-S2",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9A",
+              "3B",
+              "1D",
+              "6B",
+              "21D",
+              "14D",
+              "21C",
+              "4C",
+              "17A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 13128,
+          "economy": 4376,
+          "first": 26256
+        },
+        "schedule_id": "MA-109-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "1A",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "23B",
+              "2E",
+              "9E",
+              "7F",
+              "20E",
+              "1E",
+              "3D",
+              "21D",
+              "21B",
+              "20F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14142,
+          "economy": 4714,
+          "first": 28284
+        },
+        "schedule_id": "MA-109-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "5A",
+              "14D",
+              "18F",
+              "13F",
+              "21E",
+              "5E",
+              "8D",
+              "13B",
+              "10F",
+              "23C",
+              "3E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Delhi"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Mumbai",
+    "flight_id": "MA-110",
+    "schedules": [
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 11640,
+          "economy": 3880,
+          "first": 23280
+        },
+        "schedule_id": "MA-110-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "1A",
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "22F",
+              "5D",
+              "7C",
+              "17C",
+              "18E",
+              "23E",
+              "17F",
+              "17C",
+              "9D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13113,
+          "economy": 4371,
+          "first": 26226
+        },
+        "schedule_id": "MA-110-S2",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "22C",
+              "12A",
+              "3A",
+              "2E",
+              "23D",
+              "8F",
+              "11F",
+              "19C",
+              "10F",
+              "17B",
+              "17A",
+              "25E",
+              "16C",
+              "23E",
+              "3B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 12831,
+          "economy": 4277,
+          "first": 25662
+        },
+        "schedule_id": "MA-110-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9A",
+              "7B",
+              "16D",
+              "3C",
+              "19E",
+              "4D",
+              "18F",
+              "17C",
+              "22F",
+              "21B",
+              "13A",
+              "5C",
+              "14C",
+              "24B",
+              "7D",
+              "21A",
+              "7B",
+              "17F",
+              "12F",
+              "2D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 11277,
+          "economy": 3759,
+          "first": 22554
+        },
+        "schedule_id": "MA-110-S4",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "25C",
+              "14B",
+              "6B",
+              "14B",
+              "11B",
+              "9D",
+              "17F",
+              "5E",
+              "3E",
+              "7C",
+              "18F",
+              "15D",
+              "4F",
+              "21E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Bengaluru"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Delhi",
+    "flight_id": "MA-111",
+    "schedules": [
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 15897,
+          "economy": 5299,
+          "first": 31794
+        },
+        "schedule_id": "MA-111-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "5A",
+              "4A",
+              "5C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "25D",
+              "14C",
+              "2E",
+              "5C",
+              "7C",
+              "6B",
+              "18D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14025,
+          "economy": 4675,
+          "first": 28050
+        },
+        "schedule_id": "MA-111-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "5A",
+              "3C",
+              "2C",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9C",
+              "1F",
+              "13A",
+              "12D",
+              "3D",
+              "4D",
+              "23C",
+              "9B",
+              "9A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 12330,
+          "economy": 4110,
+          "first": 24660
+        },
+        "schedule_id": "MA-111-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A",
+              "2C",
+              "2C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "2A",
+              "8E",
+              "19F",
+              "11E",
+              "7C",
+              "20C",
+              "5A",
+              "2C",
+              "2F",
+              "13A",
+              "23A",
+              "22C",
+              "11B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14247,
+          "economy": 4749,
+          "first": 28494
+        },
+        "schedule_id": "MA-111-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A",
+              "3C",
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "13C",
+              "4A",
+              "7B",
+              "12A",
+              "16F",
+              "3B",
+              "18F",
+              "1F",
+              "21A",
+              "11A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Bengaluru"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Hyderabad",
+    "flight_id": "MA-112",
+    "schedules": [
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 11166,
+          "economy": 3722,
+          "first": 22332
+        },
+        "schedule_id": "MA-112-S1",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "13E",
+              "12B",
+              "2F",
+              "23E",
+              "11C",
+              "10E",
+              "23A",
+              "18D",
+              "8C",
+              "8D",
+              "19C",
+              "19B",
+              "25D",
+              "13D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12459,
+          "economy": 4153,
+          "first": 24918
+        },
+        "schedule_id": "MA-112-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "2C",
+              "3C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "4C",
+              "10D",
+              "6D",
+              "10E",
+              "23E",
+              "6B",
+              "15A",
+              "19F",
+              "11D",
+              "25F",
+              "18B",
+              "23B",
+              "2D",
+              "10C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 15819,
+          "economy": 5273,
+          "first": 31638
+        },
+        "schedule_id": "MA-112-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "2C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "21F",
+              "13B",
+              "15C",
+              "15A",
+              "3D",
+              "19C",
+              "21E",
+              "21E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 11973,
+          "economy": 3991,
+          "first": 23946
+        },
+        "schedule_id": "MA-112-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A",
+              "2C",
+              "3A",
+              "3C",
+              "5C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "15B",
+              "21F",
+              "13F",
+              "5D",
+              "14B",
+              "24E",
+              "4C",
+              "10D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Bengaluru"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Chennai",
+    "flight_id": "MA-113",
+    "schedules": [
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 11628,
+          "economy": 3876,
+          "first": 23256
+        },
+        "schedule_id": "MA-113-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "22B",
+              "3B",
+              "6D",
+              "17F",
+              "17B",
+              "22C",
+              "7C",
+              "20C",
+              "9E",
+              "24B",
+              "12D",
+              "21A",
+              "20A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13668,
+          "economy": 4556,
+          "first": 27336
+        },
+        "schedule_id": "MA-113-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "4C",
+              "3A",
+              "5A",
+              "4A",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "10E",
+              "13F",
+              "17B",
+              "15F",
+              "8D",
+              "3C",
+              "2E",
+              "5D",
+              "24A",
+              "6F",
+              "13F",
+              "21E",
+              "13D",
+              "24A",
+              "5E",
+              "12D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 12561,
+          "economy": 4187,
+          "first": 25122
+        },
+        "schedule_id": "MA-113-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "5C",
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "24E",
+              "18E",
+              "16D",
+              "15D",
+              "13F",
+              "9F",
+              "4D",
+              "1B",
+              "14E",
+              "7C",
+              "9B",
+              "5D",
+              "19D",
+              "3D",
+              "3A",
+              "22E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 15375,
+          "economy": 5125,
+          "first": 30750
+        },
+        "schedule_id": "MA-113-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "15F",
+              "14E",
+              "17B",
+              "10C",
+              "11A",
+              "3C",
+              "8F",
+              "24C",
+              "2A",
+              "15B",
+              "6B",
+              "13A",
+              "13A",
+              "2C",
+              "22A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Bengaluru"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Kolkata",
+    "flight_id": "MA-114",
+    "schedules": [
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 15123,
+          "economy": 5041,
+          "first": 30246
+        },
+        "schedule_id": "MA-114-S1",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "2A",
+              "17B",
+              "3A",
+              "11C",
+              "15C",
+              "19F",
+              "8D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A",
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 11670,
+          "economy": 3890,
+          "first": 23340
+        },
+        "schedule_id": "MA-114-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C",
+              "3C",
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "16E",
+              "8A",
+              "20C",
+              "12B",
+              "15A",
+              "15B",
+              "8C",
+              "6E",
+              "9D",
+              "6D",
+              "6E",
+              "18C",
+              "7C",
+              "3C",
+              "1C",
+              "21D",
+              "21F",
+              "20E",
+              "11D",
+              "20C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 14109,
+          "economy": 4703,
+          "first": 28218
+        },
+        "schedule_id": "MA-114-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "2A",
+              "18C",
+              "10E",
+              "22E",
+              "17B",
+              "16C",
+              "14A",
+              "23B",
+              "15A",
+              "19A",
+              "15D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13584,
+          "economy": 4528,
+          "first": 27168
+        },
+        "schedule_id": "MA-114-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "2C",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "4F",
+              "2A",
+              "1C",
+              "10A",
+              "18A",
+              "20C",
+              "22F",
+              "13D",
+              "11B",
+              "12F",
+              "25B",
+              "5C",
+              "25D",
+              "11B",
+              "5A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Bengaluru"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Mumbai",
+    "flight_id": "MA-115",
+    "schedules": [
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 12423,
+          "economy": 4141,
+          "first": 24846
+        },
+        "schedule_id": "MA-115-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "10E",
+              "24C",
+              "19B",
+              "17F",
+              "6A",
+              "14F",
+              "24D",
+              "14F",
+              "20B",
+              "18A",
+              "13D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 10524,
+          "economy": 3508,
+          "first": 21048
+        },
+        "schedule_id": "MA-115-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "2C",
+              "2C",
+              "2A",
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9B",
+              "10F",
+              "2B",
+              "16F",
+              "17C",
+              "21D",
+              "5A",
+              "14E",
+              "6D",
+              "16A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 10995,
+          "economy": 3665,
+          "first": 21990
+        },
+        "schedule_id": "MA-115-S3",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "8E",
+              "17F",
+              "14E",
+              "24C",
+              "13E",
+              "6B",
+              "21D",
+              "6B",
+              "9B",
+              "22E",
+              "17F",
+              "1C",
+              "20D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 16086,
+          "economy": 5362,
+          "first": 32172
+        },
+        "schedule_id": "MA-115-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "2A",
+              "4A",
+              "4A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "24C",
+              "4A",
+              "5B",
+              "22B",
+              "2F",
+              "6F",
+              "20A",
+              "17C",
+              "24C",
+              "12C",
+              "13F",
+              "19A",
+              "19E",
+              "5B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Hyderabad"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Delhi",
+    "flight_id": "MA-116",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 14547,
+          "economy": 4849,
+          "first": 29094
+        },
+        "schedule_id": "MA-116-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "5C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "10A",
+              "14A",
+              "2E",
+              "2F",
+              "23E",
+              "14C",
+              "17A",
+              "15C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12114,
+          "economy": 4038,
+          "first": 24228
+        },
+        "schedule_id": "MA-116-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "4C",
+              "4C",
+              "4C",
+              "1A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "19D",
+              "25A",
+              "7F",
+              "5A",
+              "17F",
+              "12C",
+              "24A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 13140,
+          "economy": 4380,
+          "first": 26280
+        },
+        "schedule_id": "MA-116-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "4C",
+              "5A",
+              "4A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "19A",
+              "7F",
+              "21A",
+              "24A",
+              "9E",
+              "1E",
+              "2E",
+              "9D",
+              "20C",
+              "1D",
+              "5C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 15186,
+          "economy": 5062,
+          "first": 30372
+        },
+        "schedule_id": "MA-116-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "11C",
+              "17B",
+              "5E",
+              "18A",
+              "12E",
+              "24B",
+              "20A",
+              "2C",
+              "18D",
+              "10A",
+              "15D",
+              "18A",
+              "13F",
+              "12E",
+              "17F",
+              "8A",
+              "4D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Hyderabad"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Bengaluru",
+    "flight_id": "MA-117",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 14793,
+          "economy": 4931,
+          "first": 29586
+        },
+        "schedule_id": "MA-117-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C",
+              "2A",
+              "1A",
+              "3C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "20D",
+              "9D",
+              "2E",
+              "23D",
+              "19D",
+              "19C",
+              "3E",
+              "7B",
+              "5C",
+              "13F",
+              "2A",
+              "2A",
+              "21C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12291,
+          "economy": 4097,
+          "first": 24582
+        },
+        "schedule_id": "MA-117-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "2C",
+              "4A",
+              "2C",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9A",
+              "18E",
+              "8B",
+              "22D",
+              "23A",
+              "11B",
+              "16E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 16011,
+          "economy": 5337,
+          "first": 32022
+        },
+        "schedule_id": "MA-117-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "16B",
+              "19C",
+              "19C",
+              "25F",
+              "1D",
+              "25B",
+              "19B",
+              "4B",
+              "20B",
+              "8E",
+              "7C",
+              "20D",
+              "18A",
+              "11E",
+              "22D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14010,
+          "economy": 4670,
+          "first": 28020
+        },
+        "schedule_id": "MA-117-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "5C",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "16D",
+              "16C",
+              "8D",
+              "5B",
+              "25C",
+              "3F",
+              "18F",
+              "14C",
+              "24C",
+              "8C",
+              "15D",
+              "16A",
+              "9A",
+              "1C",
+              "8E",
+              "21C",
+              "13B",
+              "7A",
+              "9D",
+              "9E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Hyderabad"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Chennai",
+    "flight_id": "MA-118",
+    "schedules": [
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 13380,
+          "economy": 4460,
+          "first": 26760
+        },
+        "schedule_id": "MA-118-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A",
+              "1A",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "8B",
+              "9E",
+              "23C",
+              "25D",
+              "21F",
+              "17A",
+              "6A",
+              "20D",
+              "25E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 11544,
+          "economy": 3848,
+          "first": 23088
+        },
+        "schedule_id": "MA-118-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "21D",
+              "7F",
+              "1C",
+              "23D",
+              "8B",
+              "13C",
+              "4C",
+              "16C",
+              "4A",
+              "20C",
+              "22D",
+              "2C",
+              "23A",
+              "7A",
+              "16F",
+              "17E",
+              "1F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 13932,
+          "economy": 4644,
+          "first": 27864
+        },
+        "schedule_id": "MA-118-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "2A",
+              "4A",
+              "2A",
+              "2C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "3A",
+              "8D",
+              "15F",
+              "9A",
+              "21E",
+              "11A",
+              "14F",
+              "18D",
+              "20E",
+              "21C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 10590,
+          "economy": 3530,
+          "first": 21180
+        },
+        "schedule_id": "MA-118-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A",
+              "1C",
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "18B",
+              "17B",
+              "15F",
+              "7F",
+              "12F",
+              "2B",
+              "5A",
+              "23C",
+              "9D",
+              "23E",
+              "14A",
+              "18F",
+              "18E",
+              "1E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Hyderabad"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Kolkata",
+    "flight_id": "MA-119",
+    "schedules": [
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 15723,
+          "economy": 5241,
+          "first": 31446
+        },
+        "schedule_id": "MA-119-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A",
+              "1A",
+              "3C",
+              "5A",
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "13A",
+              "2C",
+              "1E",
+              "19F",
+              "19A",
+              "17F",
+              "13E",
+              "22B",
+              "5B",
+              "2E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13407,
+          "economy": 4469,
+          "first": 26814
+        },
+        "schedule_id": "MA-119-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "1A",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "19B",
+              "7F",
+              "20B",
+              "21D",
+              "12E",
+              "24D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 14622,
+          "economy": 4874,
+          "first": 29244
+        },
+        "schedule_id": "MA-119-S3",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "7B",
+              "8B",
+              "10B",
+              "22D",
+              "25C",
+              "15C",
+              "2A",
+              "4F",
+              "14C",
+              "23E",
+              "18A",
+              "14F",
+              "24F",
+              "11D",
+              "17A",
+              "16B",
+              "7C",
+              "23C",
+              "1C",
+              "10C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 10812,
+          "economy": 3604,
+          "first": 21624
+        },
+        "schedule_id": "MA-119-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "4C",
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "17A",
+              "8C",
+              "3C",
+              "11F",
+              "7E",
+              "25F",
+              "6E",
+              "25B",
+              "10E",
+              "2B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A",
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Hyderabad"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Mumbai",
+    "flight_id": "MA-120",
+    "schedules": [
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 11265,
+          "economy": 3755,
+          "first": 22530
+        },
+        "schedule_id": "MA-120-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "4C",
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "22C",
+              "5C",
+              "4E",
+              "10D",
+              "6E",
+              "14E",
+              "10E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14724,
+          "economy": 4908,
+          "first": 29448
+        },
+        "schedule_id": "MA-120-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C",
+              "5A",
+              "3A",
+              "5C",
+              "5C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "12F",
+              "4E",
+              "10B",
+              "23D",
+              "6E",
+              "22C",
+              "14B",
+              "3C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 10572,
+          "economy": 3524,
+          "first": 21144
+        },
+        "schedule_id": "MA-120-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "4C",
+              "4C",
+              "4A",
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "9D",
+              "22E",
+              "10A",
+              "5E",
+              "2F",
+              "6A",
+              "24A",
+              "3B",
+              "22E",
+              "4A",
+              "3D",
+              "7C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13059,
+          "economy": 4353,
+          "first": 26118
+        },
+        "schedule_id": "MA-120-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "5C",
+              "5A",
+              "2A",
+              "1A",
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "4E",
+              "12B",
+              "16C",
+              "22F",
+              "7D",
+              "15A",
+              "8C",
+              "3F",
+              "23F",
+              "8B",
+              "17D",
+              "4C",
+              "21E",
+              "12E",
+              "11B",
+              "25C",
+              "3F",
+              "15C",
+              "2F",
+              "15C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Chennai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Delhi",
+    "flight_id": "MA-121",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 12306,
+          "economy": 4102,
+          "first": 24612
+        },
+        "schedule_id": "MA-121-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "19E",
+              "20F",
+              "1D",
+              "1E",
+              "5C",
+              "15C",
+              "2B",
+              "2A",
+              "21B",
+              "6C",
+              "14C"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 11940,
+          "economy": 3980,
+          "first": 23880
+        },
+        "schedule_id": "MA-121-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "2C",
+              "1A",
+              "1C",
+              "1A",
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "4D",
+              "10E",
+              "25D",
+              "7C",
+              "4E",
+              "12B",
+              "4A",
+              "5A",
+              "21B",
+              "3D",
+              "4D",
+              "9E",
+              "4F",
+              "17C",
+              "19A",
+              "16D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 15276,
+          "economy": 5092,
+          "first": 30552
+        },
+        "schedule_id": "MA-121-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "1E",
+              "12A",
+              "9C",
+              "12D",
+              "15D",
+              "22F",
+              "23F",
+              "9F",
+              "3B",
+              "6E",
+              "22E",
+              "20B",
+              "19D",
+              "9D",
+              "3A",
+              "10D",
+              "8A",
+              "13E",
+              "4C",
+              "2D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 16485,
+          "economy": 5495,
+          "first": 32970
+        },
+        "schedule_id": "MA-121-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "4C",
+              "1A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "18E",
+              "2F",
+              "25E",
+              "18D",
+              "7E",
+              "2D",
+              "7D",
+              "20A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Chennai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Bengaluru",
+    "flight_id": "MA-122",
+    "schedules": [
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 14538,
+          "economy": 4846,
+          "first": 29076
+        },
+        "schedule_id": "MA-122-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "4A",
+              "3A",
+              "1C",
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "3D",
+              "22A",
+              "15D",
+              "5F",
+              "13E",
+              "8B",
+              "18D",
+              "15F",
+              "20A",
+              "15C",
+              "15E",
+              "8D",
+              "3F",
+              "25C",
+              "18A",
+              "8F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14916,
+          "economy": 4972,
+          "first": 29832
+        },
+        "schedule_id": "MA-122-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "4C",
+              "1A",
+              "2A",
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "20A",
+              "24E",
+              "19D",
+              "3B",
+              "20C",
+              "2E",
+              "11F",
+              "13B",
+              "14A",
+              "10F",
+              "4E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 12204,
+          "economy": 4068,
+          "first": 24408
+        },
+        "schedule_id": "MA-122-S3",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "25C",
+              "22C",
+              "14E",
+              "20F",
+              "11B",
+              "19B",
+              "16C",
+              "22C",
+              "12C",
+              "4A",
+              "10F",
+              "16E",
+              "16B",
+              "25F",
+              "17F",
+              "11C",
+              "16A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 10890,
+          "economy": 3630,
+          "first": 21780
+        },
+        "schedule_id": "MA-122-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "3D",
+              "12F",
+              "24F",
+              "7B",
+              "25C",
+              "7D",
+              "17D",
+              "7F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Chennai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Hyderabad",
+    "flight_id": "MA-123",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 15129,
+          "economy": 5043,
+          "first": 30258
+        },
+        "schedule_id": "MA-123-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "23C",
+              "23B",
+              "4A",
+              "13F",
+              "11E",
+              "20D",
+              "5B",
+              "25D",
+              "21C",
+              "10F",
+              "7D",
+              "20D",
+              "6B",
+              "17B",
+              "21C",
+              "2F",
+              "1F",
+              "12D",
+              "10D",
+              "7A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13059,
+          "economy": 4353,
+          "first": 26118
+        },
+        "schedule_id": "MA-123-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "2C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "5D",
+              "21D",
+              "23C",
+              "6F",
+              "13D",
+              "17F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 13752,
+          "economy": 4584,
+          "first": 27504
+        },
+        "schedule_id": "MA-123-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "1C",
+              "4A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "24B",
+              "20A",
+              "15F",
+              "18D",
+              "24C",
+              "12E",
+              "15E",
+              "6C",
+              "1F",
+              "16F",
+              "16F",
+              "13F",
+              "10D",
+              "6E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12948,
+          "economy": 4316,
+          "first": 25896
+        },
+        "schedule_id": "MA-123-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "1D",
+              "23F",
+              "10A",
+              "11C",
+              "18D",
+              "24B",
+              "9D",
+              "17C",
+              "23A",
+              "7A",
+              "21C",
+              "5C",
+              "23D",
+              "6D",
+              "8F",
+              "25F",
+              "15A",
+              "16F",
+              "2B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Chennai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Kolkata",
+    "flight_id": "MA-124",
+    "schedules": [
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 12357,
+          "economy": 4119,
+          "first": 24714
+        },
+        "schedule_id": "MA-124-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "5C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "10B",
+              "19C",
+              "2A",
+              "15F",
+              "8D",
+              "7A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14280,
+          "economy": 4760,
+          "first": 28560
+        },
+        "schedule_id": "MA-124-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "5A",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "12E",
+              "5B",
+              "24A",
+              "21E",
+              "23D",
+              "9F",
+              "23B",
+              "9B",
+              "20D",
+              "21F",
+              "23D",
+              "14C",
+              "7C",
+              "5C",
+              "20C",
+              "20D",
+              "6B",
+              "13A",
+              "25B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 14022,
+          "economy": 4674,
+          "first": 28044
+        },
+        "schedule_id": "MA-124-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A",
+              "2A",
+              "2A",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "10C",
+              "4A",
+              "20C",
+              "2C",
+              "13C",
+              "4B",
+              "21C",
+              "2B",
+              "12F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12924,
+          "economy": 4308,
+          "first": 25848
+        },
+        "schedule_id": "MA-124-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A",
+              "3C",
+              "1A",
+              "4C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "8B",
+              "13A",
+              "11F",
+              "24C",
+              "9F",
+              "16A",
+              "16A",
+              "22C",
+              "6B",
+              "10F",
+              "20B",
+              "13A",
+              "22D",
+              "1E",
+              "24E",
+              "20D",
+              "19F",
+              "20A",
+              "13F",
+              "10F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Chennai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Mumbai",
+    "flight_id": "MA-125",
+    "schedules": [
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 14985,
+          "economy": 4995,
+          "first": 29970
+        },
+        "schedule_id": "MA-125-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "4C",
+              "5A",
+              "4A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "2D",
+              "6F",
+              "25E",
+              "22B",
+              "23A",
+              "12C",
+              "7B",
+              "24B",
+              "5F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 15969,
+          "economy": 5323,
+          "first": 31938
+        },
+        "schedule_id": "MA-125-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "2C",
+              "2C",
+              "4C",
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "18E",
+              "16B",
+              "18B",
+              "1A",
+              "14A",
+              "16D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 14724,
+          "economy": 4908,
+          "first": 29448
+        },
+        "schedule_id": "MA-125-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "3A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "21A",
+              "21F",
+              "21A",
+              "11A",
+              "22B",
+              "23C",
+              "1E",
+              "19F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13050,
+          "economy": 4350,
+          "first": 26100
+        },
+        "schedule_id": "MA-125-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "5C",
+              "1A",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "15D",
+              "7E",
+              "5E",
+              "9C",
+              "8E",
+              "13B",
+              "17A",
+              "2E",
+              "10F",
+              "25D",
+              "22E",
+              "1F",
+              "18C",
+              "2D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Kolkata"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Delhi",
+    "flight_id": "MA-126",
+    "schedules": [
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 13578,
+          "economy": 4526,
+          "first": 27156
+        },
+        "schedule_id": "MA-126-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "5A",
+              "1C",
+              "5C",
+              "5C",
+              "1A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "10C",
+              "22C",
+              "22F",
+              "2D",
+              "8D",
+              "7A",
+              "19F",
+              "2E",
+              "10A",
+              "22C",
+              "9F",
+              "16C",
+              "5C",
+              "5F",
+              "13F",
+              "17A",
+              "2D",
+              "18E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 12252,
+          "economy": 4084,
+          "first": 24504
+        },
+        "schedule_id": "MA-126-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "4C",
+              "2C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "16C",
+              "5D",
+              "17D",
+              "24B",
+              "7E",
+              "19A",
+              "19B",
+              "12C",
+              "19A",
+              "6E",
+              "23B",
+              "14C",
+              "12F",
+              "22F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 12279,
+          "economy": 4093,
+          "first": 24558
+        },
+        "schedule_id": "MA-126-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "2A",
+              "1A",
+              "4C",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "23D",
+              "24C",
+              "23F",
+              "23E",
+              "3B",
+              "1D",
+              "22F",
+              "8E",
+              "6D",
+              "4E",
+              "2C",
+              "6B",
+              "22F",
+              "24B",
+              "17F",
+              "10D",
+              "2D",
+              "15F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 10884,
+          "economy": 3628,
+          "first": 21768
+        },
+        "schedule_id": "MA-126-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "3A",
+              "3A",
+              "1A",
+              "4A",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "6A",
+              "7F",
+              "22E",
+              "2C",
+              "5C",
+              "25A",
+              "22E",
+              "13B",
+              "5E",
+              "21D",
+              "21C",
+              "17E",
+              "14D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Kolkata"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Bengaluru",
+    "flight_id": "MA-127",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 12372,
+          "economy": 4124,
+          "first": 24744
+        },
+        "schedule_id": "MA-127-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "2C",
+              "4A",
+              "4A",
+              "1A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "21E",
+              "24E",
+              "11F",
+              "18D",
+              "1C",
+              "24D",
+              "17F",
+              "1D",
+              "17C",
+              "16F",
+              "3E"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 16203,
+          "economy": 5401,
+          "first": 32406
+        },
+        "schedule_id": "MA-127-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "1A",
+              "5A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "25D",
+              "25D",
+              "18E",
+              "20A",
+              "17C",
+              "17D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B",
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 15318,
+          "economy": 5106,
+          "first": 30636
+        },
+        "schedule_id": "MA-127-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "8B",
+              "11D",
+              "8A",
+              "16C",
+              "20E",
+              "1A",
+              "12B",
+              "11F",
+              "9D",
+              "23A",
+              "2E",
+              "9A",
+              "19B",
+              "2B",
+              "22F",
+              "3E",
+              "15E",
+              "20F",
+              "15B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 16404,
+          "economy": 5468,
+          "first": 32808
+        },
+        "schedule_id": "MA-127-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "2C",
+              "1C",
+              "2A",
+              "1A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "10B",
+              "6F",
+              "16B",
+              "15A",
+              "16A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Kolkata"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Hyderabad",
+    "flight_id": "MA-128",
+    "schedules": [
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 12000,
+          "economy": 4000,
+          "first": 24000
+        },
+        "schedule_id": "MA-128-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "4A",
+              "5C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "17B",
+              "23C",
+              "5A",
+              "20C",
+              "15E",
+              "25A",
+              "14A",
+              "13A",
+              "21B",
+              "4E",
+              "16A",
+              "8A",
+              "6E",
+              "4F",
+              "5F",
+              "3B",
+              "8F",
+              "5D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 13164,
+          "economy": 4388,
+          "first": 26328
+        },
+        "schedule_id": "MA-128-S2",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "16D",
+              "23C",
+              "23C",
+              "5F",
+              "1F",
+              "8A",
+              "23C",
+              "17D",
+              "3B",
+              "11F",
+              "3D",
+              "13C",
+              "19A",
+              "22D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "1A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Airbus A320",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 12735,
+          "economy": 4245,
+          "first": 25470
+        },
+        "schedule_id": "MA-128-S3",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "13D",
+              "16D",
+              "9F",
+              "9D",
+              "13F",
+              "1D",
+              "25C",
+              "25D",
+              "7E",
+              "15B",
+              "17C",
+              "17F",
+              "18C",
+              "17F",
+              "16B",
+              "14F",
+              "15A"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14748,
+          "economy": 4916,
+          "first": 29496
+        },
+        "schedule_id": "MA-128-S4",
+        "seats": {
+          "business": {
+            "booked": [
+              "5A",
+              "2A",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "21C",
+              "11C",
+              "1B",
+              "19B",
+              "19A",
+              "9F",
+              "8E",
+              "7A",
+              "22B",
+              "20D",
+              "12B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Kolkata"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Chennai",
+    "flight_id": "MA-129",
+    "schedules": [
+      {
+        "aircraft": "Airbus A321",
+        "arrival_time": "08:15",
+        "departure_time": "06:00",
+        "duration_mins": 135,
+        "price": {
+          "business": 13455,
+          "economy": 4485,
+          "first": 26910
+        },
+        "schedule_id": "MA-129-S1",
+        "seats": {
+          "business": {
+            "booked": [
+              "3C",
+              "2A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "1C",
+              "6B",
+              "13A",
+              "25D",
+              "3C",
+              "20A",
+              "4F",
+              "18D",
+              "7A",
+              "20F",
+              "9F",
+              "13D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "2B",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "13:45",
+        "departure_time": "11:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 14916,
+          "economy": 4972,
+          "first": 29832
+        },
+        "schedule_id": "MA-129-S2",
+        "seats": {
+          "business": {
+            "booked": [
+              "2C",
+              "4C",
+              "2A",
+              "2C",
+              "1C"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "3B",
+              "18A",
+              "12D",
+              "4B",
+              "24B",
+              "5E",
+              "19C",
+              "17B",
+              "21A",
+              "16E",
+              "25D"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "20:00",
+        "departure_time": "17:45",
+        "duration_mins": 135,
+        "price": {
+          "business": 11751,
+          "economy": 3917,
+          "first": 23502
+        },
+        "schedule_id": "MA-129-S3",
+        "seats": {
+          "business": {
+            "booked": [
+              "5C",
+              "5A",
+              "4C",
+              "4A"
+            ],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "22C",
+              "16E",
+              "17C",
+              "11C",
+              "21B",
+              "25D",
+              "21F",
+              "24F",
+              "18D",
+              "24C",
+              "16E",
+              "20E",
+              "2F",
+              "24C",
+              "10B"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A",
+              "2A"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      },
+      {
+        "aircraft": "Boeing 787 Dreamliner",
+        "arrival_time": "23:45",
+        "departure_time": "21:30",
+        "duration_mins": 135,
+        "price": {
+          "business": 16305,
+          "economy": 5435,
+          "first": 32610
+        },
+        "schedule_id": "MA-129-S4",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "1F",
+              "11D",
+              "17B",
+              "5C",
+              "20B",
+              "5B",
+              "15F",
+              "8A",
+              "10A",
+              "16F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [
+              "1A",
+              "2B"
+            ],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Kolkata"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "London",
+    "flight_id": "AI-101",
+    "schedules": [],
+    "source": "Mumbai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "London",
+    "flight_id": "AI-102",
+    "schedules": [
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "09:27",
+        "departure_time": "23:27",
+        "duration_mins": 600,
+        "price": {
+          "business": 90000,
+          "economy": 77000,
+          "first": 150000
+        },
+        "schedule_id": "AI-102-S1",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Mumbai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Muscat",
+    "flight_id": "AI-301",
+    "schedules": [
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "18:11",
+        "departure_time": "14:10",
+        "duration_mins": 241,
+        "price": {
+          "business": 20000,
+          "economy": 7000,
+          "first": 35000
+        },
+        "schedule_id": "AI-301-S1",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [
+              "17F"
+            ],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Mumbai"
+  },
+  {
+    "airline": "MatAir",
+    "destination": "Delhi",
+    "flight_id": "AI-401",
+    "schedules": [
+      {
+        "aircraft": "Boeing 737",
+        "arrival_time": "22:21",
+        "departure_time": "16:21",
+        "duration_mins": 360,
+        "price": {
+          "business": 10000,
+          "economy": 7000,
+          "first": 35000
+        },
+        "schedule_id": "AI-401-S1",
+        "seats": {
+          "business": {
+            "booked": [],
+            "total": 30
+          },
+          "economy": {
+            "booked": [],
+            "total": 150
+          },
+          "first": {
+            "booked": [],
+            "total": 12
+          }
+        },
+        "status": "On Time"
+      }
+    ],
+    "source": "Mumbai"
+  }
+]

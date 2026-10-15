@@ -1,0 +1,105 @@
+================================================================================
+                    MAT AIR SYSTEM DOCUMENTATION
+================================================================================
+
+1. OBJECT-ORIENTED PROGRAMMING (OOP) CONCEPTS
+--------------------------------------------------------------------------------
+The MatAir system is built using a robust C++ OOP architecture:
+
+A. ABSTRACTION
+   - Where: models/Person.h, models/Booking.h
+   - How: 'Person' and 'Booking' are Abstract Base Classes. They use "Pure 
+     Virtual Functions" (= 0), which act as a blueprint that all subclasses 
+     MUST follow.
+   - Why: This ensures every user has a role and every booking has a price,
+     even if the specific math is defined later.
+
+B. INHERITANCE
+   - Hierarchy: Person -> User, Admin
+   - Hierarchy: Booking -> EconomyBooking, BusinessBooking, FirstClassBooking
+   - How: Subclasses inherit all protected attributes (user_id, email, etc.) 
+     to avoid code duplication. This is a "is-a" relationship (e.g., a User 
+     "is a" Person).
+
+C. POLYMORPHISM (Dynamic Binding)
+   - Function: 'calculatePrice()' & 'toJson()'
+   - How: The parent class defines a 'virtual' function. When we call it on a 
+     base pointer (e.g., Booking* b), C++ looks at the "V-Table" to find the 
+     correct version for the actual object type at runtime.
+   - Benefit: We can handle a list of mixed bookings (Economy and First Class) 
+     using a single loop without knowing the exact type of each one.
+
+D. ENCAPSULATION
+   - Implementation: 'protected' fields and 'public' getters.
+   - Purpose: Direct access to data (like raw passwords) is forbidden. You 
+     must use methods like 'checkPassword()' or 'getEmail()', allowing the 
+     class to control how its data is accessed or modified.
+
+--------------------------------------------------------------------------------
+2. STL & DATA STRUCTURES (Standard Template Library)
+--------------------------------------------------------------------------------
+
+A. std::vector (Dynamic Arrays)
+   - Where: models/Booking.h (seats, passengers), models/User.h (booking IDs)
+   - Usage: Used when we need a collection of items that can grow in size.
+     Example: 'std::vector<std::string> seats;' stores an arbitrary number 
+     of selected seats for a single flight.
+   - Performance: Provides O(1) random access (very fast lookups by index).
+
+B. std::map (Key-Value Pairs)
+   - Where: Used internally by httplib.h for Headers and Query Parameters.
+   - Usage: Maps a unique key (like "user_id") to a value.
+   - Performance: O(log n) search time, making it ideal for looking up 
+     specific pieces of info in a large dataset of parameters.
+
+C. Iterators & Algorithms
+   - Where: BookingRoutes.h (seat cancellation logic)
+   - Usage: 'std::remove' and 'erase' are used to find and remove specific 
+     seats from a vector when a user cancels their trip.
+
+--------------------------------------------------------------------------------
+3. C++ FILE HANDLING (Persistence)
+--------------------------------------------------------------------------------
+The system uses the <fstream> library to ensure your data isn't lost when 
+the server restarts (File Based Database).
+
+A. std::ifstream (Input File Stream)
+   - Action: Reads JSON data from the disk into the server's memory.
+   - Logic: 'if (!f.is_open())' checks ensure the system doesn't crash if 
+     a database file is missing.
+
+B. std::ofstream (Output File Stream)
+   - Action: overwrites/updates the JSON files on disk.
+   - Logic: 'f << data.dump(2);' takes the C++ JSON object and "serializes" 
+     it back into a readable text file with 2-space indentation.
+
+--------------------------------------------------------------------------------
+4. SYSTEM ARCHITECTURE
+--------------------------------------------------------------------------------
+
+FRONTEND (Web Interface)
+   - Logic: 'js/api.js' acts as the communication layer, sending data to the 
+     backend using the Fetch API and managing user sessions in LocalStorage.
+
+BACKEND (Server)
+   - Principle: Stateless REST-lite API. The server listens on port 8080 and 
+     processes incoming requests in parallel using multi-threading.
+   - Storage: Flat-file JSON in the 'data/' directory.
+
+--------------------------------------------------------------------------------
+5. API ENDPOINTS REFERENCE
+--------------------------------------------------------------------------------
+
+AUTHENTICATION
+   - POST /api/login      : Login and session start.
+   - POST /api/register   : User creation.
+
+FLIGHTS & BOOKING
+   - POST /api/search     : Find flights by destination/date.
+   - POST /api/book       : Reserve seats and finalize ticket.
+   - POST /api/cancel     : Release seats and mark booking as cancelled.
+   - GET  /api/bookings   : Fetch a user's travel history.
+
+================================================================================
+                        MatAir - Modern Travel, Simplified.
+================================================================================

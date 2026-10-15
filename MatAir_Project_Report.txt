@@ -1,0 +1,194 @@
+================================================================================
+                    FINAL PROJECT REPORT: MATAIR SYSTEM
+================================================================================
+
+1. INTRODUCTION
+--------------------------------------------------------------------------------
+MatAir is a comprehensive Full-Stack Airline Reservation System designed to 
+provide a seamless and "simplified" travel experience. It bridges the gap 
+between a high-performance C++ backend and a dynamic, modern web frontend. 
+The system focuses on core airline operations: flight discovery, seat 
+selection, user management, and ticket persistence.
+
+2. PROBLEM STATEMENT
+--------------------------------------------------------------------------------
+Traditional airline systems are often overburdened with "complex" UI and 
+fragmented architectures that make it difficult for users to search and 
+book flights quickly. There is a need for a unified system that:
+- Simplifies the booking flow (especially Round-Trips).
+- Provides real-time seat selection with clear visual feedback.
+- Uses a consistent Object-Oriented approach for maintainability.
+- Avoids heavy database dependencies by using efficient flat-file storage.
+
+3. OBJECTIVES
+--------------------------------------------------------------------------------
+- To implement a full-stack application using C++ 17 and Vanilla JS.
+- To use Object-Oriented Principles to model real-world airline entities.
+- To support complex booking flows like One-Way and Round-Trip journeys.
+- To create a clean, minimalist UI focused on user conversion.
+- To provide a stateless API for high-speed responsiveness.
+
+4. SYSTEM ARCHITECTURE (Three-Tier Model)
+--------------------------------------------------------------------------------
+The project follows a modular, three-tier architecture to ensure separation 
+of concerns and high maintainability:
+
+A. PRESENTATION LAYER (Frontend)
+   - Technologies: HTML5, CSS3 (Vanilla), JavaScript (ES6+).
+   - Responsive design implemented to work across mobile and desktop.
+   - Communicates with the backend via the Fetch API using JSON.
+
+B. BUSINESS LOGIC LAYER (Backend)
+   - Technologies: C++ 17, cpp-httplib (Multithreaded Server).
+   - Logic: Processes seat conflicts, calculates dynamic pricing, and 
+     manages user authentication.
+
+C. DATA LAYER (Persistence)
+   - Technologies: Flat-file JSON (nlohmann/json library).
+   - Principle: "Database-less" architecture using fast file-based I/O 
+     (ifstream/ofstream) for maximum simplicity and portability.
+
+5. LIST OF CLASSES AND CLASS DIAGRAM
+--------------------------------------------------------------------------------
+The system architecture revolves around the following core classes:
+
+Models:
+- Person (Abstract Base): Defines identity (id, username, email).
+- User (Inherits Person): Handles passenger-specific booking lists.
+- Admin (Inherits Person): Grants system-level access to stats/management.
+- Flight: Represents a route (e.g., Mumbai -> Delhi).
+- Schedule: Represents a specific time-bound instance of a Flight.
+- Booking (Abstract Base): Contract for all airline tickets.
+- Economy/Business/FirstClassBooking: Specialized pricing logic.
+
+ASCII CLASS DIAGRAM:
+--------------------
+       [ Person ] <── (Abstract)      <<Interface: getRole(), toJson()>>
+          │
+    ┌─────┴─────┐
+ [ User ]    [ Admin ]
+ 
+       [ Booking ] <── (Abstract)     <<Interface: calculatePrice()>>
+          │
+    ┌─────┼───────┐
+[Economy][Business][FirstClass]
+ 
+       [ Flight ]
+          <> 1:N
+       [ Schedule ]
+
+6. DESCRIPTION OF OOP CONCEPTS USED
+--------------------------------------------------------------------------------
+A. ABSTRACTION
+   - Where: 'Person.h' and 'Booking.h'
+   - Implementation: We use "Pure Virtual Functions" (= 0). For example, 
+     'Booking::calculatePrice' is abstract because a generic booking has no 
+     price—only the specific seat classes do.
+
+B. INHERITANCE
+   - Implementation: 'User' inherits from 'Person'. This creates an "is-a" 
+     relationship. A User "is a" Person and therefore automatically 
+     possesses a name, email, and ID without duplicating code.
+
+C. POLYMORPHISM
+   - Implementation: The Booking Factory uses 'std::unique_ptr<Booking>'. 
+     Even though we store a pointer to the base 'Booking', calling 
+     'calculatePrice()' triggers the correct math for Economy or Business 
+     at runtime via the "V-Table" (Virtual Table).
+
+D. ENCAPSULATION
+   - Implementation: Data like 'password' is kept 'protected'. External code 
+     cannot change a password directly; it must use the 'checkPassword()' method.
+
+7. TECHNICAL CHALLENGES & SOLUTIONS
+--------------------------------------------------------------------------------
+- ENCODING INCOMPATIBILITY: Encountered "io.h not found" and "std::string 
+  missing" errors due to UTF-16 file encoding. Corrected by force-converting 
+  all source files to UTF-8 standard.
+- CORS HANDLING: Implemented manual Access-Control-Allow-Origin headers in 
+  C++ to allow the frontend to safely communicate with the server.
+- SEQUENTIAL LOGIC: Managed the state for Return Flights to ensure the 
+  user selects outbound seats BEFORE return seats in a single flow.
+
+8. IMPLEMENTATION DETAILS AND CODE SNIPPETS
+--------------------------------------------------------------------------------
+The MatAir system is built with a focus on modularity and clean code. Below 
+are the core snippets representing the system's logic:
+
+A. OOP ABSTRACTION (Person Base Class)
+--------------------------------------
+class Person {
+protected:
+    std::string user_id, username, email;
+public:
+    virtual ~Person() = default;
+    virtual std::string getRole() const = 0; // Pure Virtual
+    virtual json toJson() const = 0;         // Forced overriding
+};
+
+B. DATA PERSISTENCE (File I/O)
+------------------------------
+inline json read(const std::string& filepath) {
+    std::ifstream f(filepath);
+    if (!f.is_open()) return json::array();
+    json data;
+    f >> data; // Stream JSON directly from file
+    return data;
+}
+
+C. API ROUTING (Booking Endpoint)
+---------------------------------
+svr.Post("/api/book", [](const httplib::Request& req, httplib::Response& res) {
+    json body = json::parse(req.body);
+    std::string bid = generateBookingId(currentBookings);
+    auto booking = makeBooking(body["class"], bid, ...);
+    // Save to JSON and return success
+    res.set_content(json{{"success",true}}.dump(), "application/json");
+});
+
+D. SEQUENTIAL ID LOGIC
+----------------------
+inline std::string generateBookingId(int currentCount) {
+    return std::to_string(currentCount + 1); // Simple, searchable 1, 2, 3...
+}
+
+E. FRONTEND COMMUNICATION (Fetch API)
+-------------------------------------
+const response = await fetch(`${API_URL}/book`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(bookingData)
+});
+const result = await response.json();
+
+9. TEST CASES AND RESULTS
+--------------------------------------------------------------------------------
+TC1: ROUTE DISCOVERY
+- Input: Search "Mumbai" to "Kolkata"
+- Expected: List of MatAir flights with 4 time options.
+- Status: PASSED
+
+TC2: SEAT CONFLICT RESOLUTION
+- Input: Two users booking seat "12A" at the same time.
+- Expected: First user succeeds; second user receives 409 Conflict.
+- Status: PASSED
+
+TC3: REBRANDING CONSISTENCY
+- Action: Search entire codebase for "Air India".
+- Expected: 0 hits. All references must be "MatAir".
+- Status: PASSED
+
+10. CONCLUSION AND FUTURE SCOPE
+--------------------------------------------------------------------------------
+The MatAir system successfully demonstrates how C++ can be used for high-speed 
+web backends. The project has met all simplified UI goals and rebranding 
+requirements.
+
+FUTURE SCOPE:
+- Integration of a credit-card payment gateway.
+- Real-time flight tracking via a 3rd party API.
+- Mobile application development using React Native.
+
+================================================================================
+                        MatAir - Modern Travel, Simplified.
+================================================================================

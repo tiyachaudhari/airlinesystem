@@ -1,0 +1,23 @@
+# Compiled C++ files
+*.exe
+*.o
+*.obj
+
+# Build folders
+build/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local compiler logs
+backend/compile_errors.txt

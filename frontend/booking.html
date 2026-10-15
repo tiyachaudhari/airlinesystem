@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Details | MatAir</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-container">
+            <div class="logo-icon"></div>
+            <div class="logo-text">MAT<span>AIR</span></div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Flights</a></li>
+                <li><a href="dashboard.html">My Bookings</a></li>
+                <li id="auth-links">
+                    <a href="login.html" class="nav-btn nav-link-btn">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="max-width: 900px; margin: 2rem auto; padding: 0 2rem;">
+        <div class="results-header" style="text-align: center; margin-bottom: 2rem;">
+            <h1>Review & Passenger Info</h1>
+            <p style="color: var(--text-secondary);">Please review your selection and provide traveler details.</p>
+        </div>
+
+        <div id="selection-summary" style="margin-bottom: 3rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+            <!-- Populated by JS -->
+        </div>
+
+        <form id="booking-form">
+            <div id="passenger-forms-container">
+                <!-- Populated by JS -->
+            </div>
+
+            <div class="card animate" style="margin-top: 2rem;">
+                <h3 style="margin-bottom: 1.5rem;">Contact Information</h3>
+                <div class="search-form" style="grid-template-columns: 1fr 1fr;">
+                    <div class="form-group">
+                        <label for="contact-email">Email Address</label>
+                        <input type="email" id="contact-email" placeholder="email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-phone">Phone Number</label>
+                        <input type="tel" id="contact-phone" placeholder="+91 XXXXX XXXXX" required>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin: 3rem 0; display: flex; justify-content: space-between; align-items: center;">
+                <button type="button" class="btn-secondary" onclick="window.history.back()">Back to Seats</button>
+                <div style="text-align: right;">
+                    <p style="font-size: 0.85rem; color: var(--text-secondary);">Total Amount</p>
+                    <h2 id="total-price-display" style="margin-bottom: 1rem;">₹0</h2>
+                    <button type="submit" class="btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem;">Secure Booking</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <script src="js/api.js"></script>
+    <script src="js/booking.js"></script>
+</body>
+</html>
+
+

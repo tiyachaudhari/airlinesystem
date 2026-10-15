@@ -1,0 +1,10 @@
+[
+  {
+    "bookings": [],
+    "email": "admin@matair.demo",
+    "password": "DemoOnly123!",
+    "role": "admin",
+    "user_id": "U001",
+    "username": "admin"
+  }
+]

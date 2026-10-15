@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatAir | Official Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-container">
+            <div class="logo-icon"></div>
+            <div class="logo-text">MAT<span>AIR</span></div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Flights</a></li>
+                <li><a href="dashboard.html">My Bookings</a></li>
+                <li id="auth-links">
+                    <a href="login.html" class="nav-btn nav-link-btn">Login</a>
+                    <a href="register.html" class="nav-btn">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section removed for simplicity -->
+
+
+        <section class="search-container">
+            <div class="search-tabs">
+                <div class="search-tab active" data-type="one-way">One Way</div>
+                <div class="search-tab" data-type="round-trip">Round Trip</div>
+            </div>
+            
+            <form id="flight-search-form" class="search-form">
+                <div class="form-group">
+                    <label for="source">From</label>
+                    <select id="source" required>
+                        <option value="">Loading locations...</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="destination">To</label>
+                    <select id="destination" required>
+                        <option value="">Loading locations...</option>
+                    </select>
+                </div>
+
+                <div class="form-group" id="outbound-date-group">
+                    <label for="date" id="date-label">Departure Date</label>
+                    <input type="date" id="date" required>
+                </div>
+
+                <div class="form-group" id="return-date-container" style="display: none;">
+                    <label for="return-date">Return Date</label>
+                    <input type="date" id="return-date">
+                </div>
+
+                <div class="form-group">
+                    <label for="class">Cabin Class</label>
+                    <select id="class">
+                        <option value="economy">Economy</option>
+                        <option value="business">Business</option>
+                        <option value="first">First Class</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="passengers">Passengers</label>
+                    <input type="number" id="passengers" value="1" min="1" max="9" required>
+                </div>
+
+                <button type="submit" class="search-submit">Search Flights</button>
+            </form>
+        </section>
+
+        <!-- Trending destinations removed for simplicity -->
+
+    </main>
+
+    
+
+    <script src="js/api.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
+
+

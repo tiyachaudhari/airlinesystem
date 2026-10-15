@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | MatAir</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-container">
+            <div class="logo-icon"></div>
+            <div class="logo-text">MAT<span>AIR</span></div>
+        </a>
+    </header>
+
+    <main style="display: flex; justify-content: center; align-items: center; min-height: 80vh; padding: 2rem;">
+        <div class="card animate" style="width: 100%; max-width: 400px; padding: 2.5rem;">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h1 style="color: var(--primary-red); margin-bottom: 0.5rem;">Welcome Back</h1>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Sign in to manage your bookings and fly easy.</p>
+            </div>
+
+            <form id="login-form">
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter username" required>
+                </div>
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%; padding: 1rem; margin-top: 1rem; font-size: 1rem;">Sign In</button>
+            </form>
+
+            <div style="text-align: center; margin-top: 2rem; border-top: 1px solid var(--light-gray); padding-top: 1.5rem;">
+                <p style="font-size: 0.9rem; color: var(--text-secondary);">Don't have an account? <a href="register.html" style="color: var(--primary-red); font-weight: 600; text-decoration: none;">Register Now</a></p>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="js/api.js"></script>
+    <script>
+        document.getElementById('login-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            const response = await API.post('/login', { username, password });
+
+            if (response.success) {
+                API.saveUser(response.user);
+                
+                // Check if we need to redirect back to booking
+                const redirect = sessionStorage.getItem('redirect_after_login');
+                if (redirect) {
+                    sessionStorage.removeItem('redirect_after_login');
+                    window.location.href = redirect;
+                } else {
+                    window.location.href = response.user.role === 'admin' ? 'admin.html' : 'dashboard.html';
+                }
+            } else {
+                alert(response.message || 'Login failed');
+            }
+        });
+    </script>
+</body>
+</html>
+
+

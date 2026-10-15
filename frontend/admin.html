@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel | MatAir Control</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header style="background: #1a1a1a; color: white; border-bottom: 4px solid var(--primary-red);">
+        <a href="index.html" class="logo-container" style="color: white;">
+            <div class="logo-icon"></div>
+            <div class="logo-text">MAT<span>AIR</span> <small style="font-size: 0.7rem; opacity: 0.6;">ADMIN</small></div>
+        </a>
+        <nav>
+            <button onclick="API.logout()" class="nav-btn nav-link-btn" style="border-color: white; color: white;">Logout</button>
+        </nav>
+    </header>
+
+    <main style="max-width: 1200px; margin: 2rem auto; padding: 0 2rem;">
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 3rem;">
+            <div class="card" style="text-align: center;">
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">Total Revenue</p>
+                <h2 id="stat-revenue" style="color: var(--success); font-size: 1.8rem;">₹0</h2>
+            </div>
+            <div class="card" style="text-align: center;">
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">Bookings</p>
+                <h2 id="stat-bookings" style="font-size: 1.8rem;">0</h2>
+            </div>
+            <div class="card" style="text-align: center;">
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">Active Flights</p>
+                <h2 id="stat-flights" style="font-size: 1.8rem;">0</h2>
+            </div>
+            <div class="card" style="text-align: center;">
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">Users</p>
+                <h2 id="stat-users" style="font-size: 1.8rem;">0</h2>
+            </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+            <section>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                    <h3>All Flight Bookings</h3>
+                    <button class="btn-secondary" style="font-size: 0.8rem;" onclick="loadBookings()">Refresh</button>
+                </div>
+                <div class="card" style="padding: 0; overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+                        <thead>
+                            <tr style="background: var(--off-white); text-align: left;">
+                                <th style="padding: 1rem;">ID</th>
+                                <th style="padding: 1rem;">Route</th>
+                                <th style="padding: 1rem;">User</th>
+                                <th style="padding: 1rem;">Price</th>
+                                <th style="padding: 1rem;">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-bookings-table">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section>
+                <h3>Add New Flight</h3>
+                <div class="card" style="margin-top: 1.5rem;">
+                    <form id="add-flight-form">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                            <div class="form-group">
+                                <label>Flight Number</label>
+                                <input type="text" id="add-id" placeholder="e.g. MA-999" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Aircraft</label>
+                                <input type="text" id="add-aircraft" value="Boeing 737" required>
+                            </div>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                            <div class="form-group">
+                                <label>From</label>
+                                <input type="text" id="add-source" placeholder="Mumbai" required>
+                            </div>
+                            <div class="form-group">
+                                <label>To</label>
+                                <input type="text" id="add-dest" placeholder="Delhi" required>
+                            </div>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                            <div class="form-group">
+                                <label>Departure Time</label>
+                                <input type="time" id="add-dep" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Arrival Time</label>
+                                <input type="time" id="add-arr" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group" style="margin-bottom: 1.5rem;">
+                            <label>Base Prices (Economy / Business / First)</label>
+                            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem;">
+                                <input type="number" id="price-eco" placeholder="Eco" required>
+                                <input type="number" id="price-bus" placeholder="Bus" required>
+                                <input type="number" id="price-fst" placeholder="First" required>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-primary" style="width: 100%;">Create Flight & Schedule</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="js/api.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const user = API.getUser();
+            if (!user || user.role !== 'admin') {
+                alert('Access Denied');
+                window.location.href = 'index.html';
+                return;
+            }
+            loadStats();
+            loadBookings();
+        });
+
+        async function loadStats() {
+            const res = await API.get('/admin/stats');
+            if (res.success) {
+                document.getElementById('stat-revenue').textContent = '₹' + res.revenue.toLocaleString();
+                document.getElementById('stat-bookings').textContent = res.total_bookings;
+                document.getElementById('stat-flights').textContent = res.total_flights;
+                document.getElementById('stat-users').textContent = res.total_users;
+            }
+        }
+
+        async function loadBookings() {
+            const res = await API.get('/admin/bookings');
+            const table = document.getElementById('admin-bookings-table');
+            if (res.success) {
+                table.innerHTML = '';
+                res.bookings.reverse().forEach(b => {
+                    const row = document.createElement('tr');
+                    row.style.borderTop = '1px solid var(--light-gray)';
+                    row.innerHTML = `
+                        <td style="padding: 1rem; font-weight: 700;">${b.booking_id}</td>
+                        <td style="padding: 1rem;">${b.flight_info ? `${b.flight_info.source} ➔ ${b.flight_info.destination}` : b.flight_id}</td>
+                        <td style="padding: 1rem; color: var(--text-secondary);">${b.user_id}</td>
+                        <td style="padding: 1rem; font-weight: 600;">₹${b.total_price.toLocaleString()}</td>
+                        <td style="padding: 1rem;">
+                            <span style="color: ${b.status === 'Confirmed' ? 'var(--success)' : 'var(--text-secondary)'}; font-weight: 700; font-size: 0.75rem;">
+                                ${b.status}
+                            </span>
+                        </td>
+                    `;
+                    table.appendChild(row);
+                });
+            }
+        }
+
+        document.getElementById('add-flight-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const flight_id  = document.getElementById('add-id').value;
+            const aircraft   = document.getElementById('add-aircraft').value;
+            const source     = document.getElementById('add-source').value;
+            const destination= document.getElementById('add-dest').value;
+            const dep        = document.getElementById('add-dep').value;
+            const arr        = document.getElementById('add-arr').value;
+            const price_eco  = parseFloat(document.getElementById('price-eco').value);
+            const price_bus  = parseFloat(document.getElementById('price-bus').value);
+            const price_fst  = parseFloat(document.getElementById('price-fst').value);
+
+            // Simple duration calculation
+            const [h1, m1] = dep.split(':').map(Number);
+            const [h2, m2] = arr.split(':').map(Number);
+            let duration = (h2 * 60 + m2) - (h1 * 60 + m1);
+            if (duration < 0) duration += 1440; // Overnight flight
+
+            const newSchedule = {
+                schedule_id: `${flight_id}-S1`,
+                departure_time: dep,
+                arrival_time: arr,
+                duration_mins: duration,
+                aircraft: aircraft,
+                status: "On Time",
+                price: {
+                    economy: price_eco,
+                    business: price_bus,
+                    first: price_fst
+                },
+                seats: {
+                    economy:  { total: 150, booked: [] },
+                    business: { total: 30,  booked: [] },
+                    first:    { total: 12,  booked: [] }
+                }
+            };
+
+            const res = await API.post('/admin/add-flight', {
+                flight_id, source, destination, schedules: [newSchedule]
+            });
+
+            if (res.success) {
+                alert('Flight and Timing created successfully!');
+                document.getElementById('add-flight-form').reset();
+                loadStats();
+            } else {
+                alert('Failed: ' + res.message);
+            }
+        });
+    </script>
+</body>
+</html>
+
+
