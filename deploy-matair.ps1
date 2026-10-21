@@ -1,8 +1,15 @@
-@'
+
 $ErrorActionPreference = "Stop"
 
 Write-Host "Checking Minikube..."
 kubectl get nodes
+if ($LASTEXITCODE -ne 0) {
+    throw "Minikube is not accessible."
+}
+
+if (-not $env:IMAGE_TAG) {
+    throw "IMAGE_TAG was not supplied by Jenkins."
+}
 
 Write-Host "Refreshing ECR credentials..."
 $password = aws ecr get-login-password --region ap-south-1
@@ -11,28 +18,34 @@ if ($LASTEXITCODE -ne 0 -or !$password) {
 }
 
 kubectl create secret docker-registry ecr-secret `
-  --docker-server=013644998183.dkr.ecr.ap-south-1.amazonaws.com `
-  --docker-username=AWS `
-  --docker-password=$password `
-  --dry-run=client -o yaml | kubectl apply -f -
+    --docker-server=013644998183.dkr.ecr.ap-south-1.amazonaws.com `
+    --docker-username=AWS `
+    --docker-password=$password `
+    --dry-run=client -o yaml |
+    kubectl apply -f -
 
 if ($LASTEXITCODE -ne 0) {
     throw "Failed to refresh the Kubernetes ECR secret."
 }
 
-if (!$env:IMAGE_TAG) {
-    throw "IMAGE_TAG was not supplied by Jenkins."
-}
-
 $image = "013644998183.dkr.ecr.ap-south-1.amazonaws.com/matair:$env:IMAGE_TAG"
 
-Write-Host "Deploying image $image"
+Write-Host "Deploying image: $image"
 kubectl set image deployment/matair matair=$image
-if ($LASTEXITCODE -ne 0) { throw "Failed to update the deployment." }
+if ($LASTEXITCODE -ne 0) {
+    throw "Failed to update the deployment."
+}
 
 kubectl rollout status deployment/matair --timeout=180s
-if ($LASTEXITCODE -ne 0) { throw "Deployment rollout failed." }
+if ($LASTEXITCODE -ne 0) {
+    throw "Deployment rollout failed."
+}
 
+Write-Host "Final deployed image:"
+kubectl get deployment matair -o=jsonpath="{.spec.template.spec.containers[0].image}"
+Write-Host ""
+
+Write-Host "Running pods:"
 kubectl get pods -l app=matair
+
 Write-Host "MatAir deployment completed successfully."
-'@ | Set-Content -Path .\deploy-matair.ps1
